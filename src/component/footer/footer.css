@@ -1,0 +1,23 @@
+.footer{
+    background-color: #14233c;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+.copy-icon{
+    font-size: 20px;
+    color: white;
+}
+.insta-icon{
+    width: 35px;
+}
+.face-icon{
+    width: 35px;
+    margin-left: -5px;
+}
+.git-icon{
+    width: 25px;
+}

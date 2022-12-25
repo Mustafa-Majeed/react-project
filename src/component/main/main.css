@@ -1,0 +1,202 @@
+.sec-1{
+    background-color: #14233c;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 100%;
+    
+   
+}
+.back{
+    /* box-shadow: 2px 2px 5px rgb(246, 246, 246); */
+    background-color: transparent;
+    animation: effects 2s linear infinite;
+    background: linear-gradient(to right,white,#14233c);
+    transition: 0.5s;
+    /* border-radius: 100px; */
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width:50%;
+    height: 100%;
+    /* color: white; */
+}
+.text h1{
+    color: transparent;
+    animation: effect 2s linear infinite;
+
+}
+.text h2{
+    color: transparent;
+    animation: effect 2s linear infinite;
+}
+.text p{
+    color: transparent;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: white;
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(to right,white,#e34b5f);
+    -webkit-background-clip: text;
+    }
+}
+@keyframes effects {
+    0% {
+        border-radius: 0px;
+    }
+    25% {
+       
+        border-radius: 50px;
+
+    }
+    50% {
+        
+        border-radius: 100px;
+
+    }
+    75% {
+        
+        border-radius: 300px;
+
+    }
+
+    100% {
+        border-radius: 500px;
+
+    }
+}
+
+
+.sec-2{
+    background-color: #14233c;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-2-con{
+    background-color: #14233c;
+
+}
+.hd{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    font-size: 2em;
+    color: transparent;
+    animation: effect;
+    animation: effect 2s linear infinite;
+}
+
+.card1{
+    background-color: #ff5722;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.5s;
+}
+.card1:hover{
+    box-shadow: 2px 2px 5px white;
+    transform: scale(1.1);
+}
+.card2{
+    background-color: #264de4;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.card2:hover{
+    box-shadow: 2px 2px 5px white;
+    transform: scale(1.1);
+}
+.card3{
+    background-color: #f7df1e;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+.card3:hover{
+    box-shadow: 2px 2px 5px white;
+    transform: scale(1.1);
+}
+.card-1-img{
+    width: 80%;
+    height: 50%;
+    border-radius: 100px;
+}
+.html-logo{
+    width: 80%;
+    height: 100%;
+    box-shadow: 2px 2px 1px black;
+}
+.card-1-text{
+    margin: 20px 0;
+}
+.card-2-img{
+    width: 80%;
+    height: 50%;
+    border-radius: 100px;
+
+}
+.css-logo{
+    width: 80%;
+    height: 100%;
+    box-shadow: 2px 2px 1px black;
+}
+.card-2-text{
+    margin: 20px 0;
+}
+.card-3-img{
+    width: 80%;
+    height: 50%;
+    border-radius: 100px;
+
+}
+.java-logo{
+    width: 80%;
+    height: 100%;
+    box-shadow: 2px 2px 1px black;
+}
+.card-3-text{
+    margin: 20px 0;
+}
+@media (max-widthL:1000px){
+    .sec-1{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
